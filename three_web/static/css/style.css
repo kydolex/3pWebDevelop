@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    min-width: 1024px;
+}
+
+main {
+    flex: 1;
+}
+.all_over{
+  overflow:hidden;
+}
+
+.header {
+    background-color: #020133;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .header_icon_all{
+    position:relative;
+    display: inline-block;
+    width: 15%;
+  }
+  .kydolex_header_log {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    padding-left: 50px;
+  }
+  .header_list_all {
+    position:relative;
+    float: right;
+    padding: 12px 25px 10px 25px;
+}
+  .header_list {
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 20px;
+    color: #ffffff;
+  }
+  .header_list:hover {
+    color: #ffffff;
+  }
+
+  .Page_title {
+    position: relative;
+    width: 100%;
+  }
+  .Page_title_img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+ /*<!--left_main_body-->*/
+  .left_main_body{
+    display: inline-block;
+    position: relative;
+    width: 75%;
+  }
+  /*<!--click_list-->*/
+  .click_list_all{
+    position: relative;
+    width: 90%;
+    text-align: center;
+    padding: 6% 0% 3% 0%;
+    float: right;
+  }
+  .click_list_body{
+    position: relative;
+    width: 280px;
+    height: 330px;
+    vertical-align: top;
+    margin: 0px 0px 20px 30px;
+    padding: 0px 0px 20px 0px;
+    background-color: #f6f7ff;
+    color: #525252;
+    float: left;
+  }
+  .click_design{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 155px;
+    object-fit: cover;
+  }
+  .click_text{
+    display: inline-block;
+    position: relative;
+    padding: 20px 0px 4px 0;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .click_text_sub{
+    display: inline-block;
+    position: relative;
+    padding: 0px 25px;
+    height: 75px;
+    font-size: 13px;
+    line-height: 1.5em;
+    font-weight: 500;
+  }
+  .click_buttom{
+    display: inline-block;
+    position: relative;
+    color: #525252;
+    font-size: 10px;
+    padding: 10px 15px 10px 15px;
+    font-weight: bold;
+  }
+  .click_buttom:hover{
+    color: #525252;
+  }
+  .what_3P_body{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 6% 5% 3% 13%;
+  }
+  .what_3P_left{
+    display: inline-block;
+    position: relative;
+    width: 40%;
+  }
+  .what_title{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    color: #525252;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .what_text{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    color: #525252;
+    font-size: 15px;
+    line-height: 1.8em;
+    padding: 8% 4% 1% 0%;
+  }
+  .what_img{
+    display: inline-block;
+    position: relative;
+    width: 59%;
+    object-fit: cover;
+    vertical-align: top;
+    top: 45px;
+  }
+  .good_3P_all{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 9% 5% 3% 13%;
+  }
+  .good_3P_body{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    color: #525252;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 5% 0% 0% 0%;
+  }
+  .good_3P_left{
+    display: inline-block;
+    position: relative;
+    width: 40%;
+  }
+  .good_title{
+    display: inline-block;
+    position: relative;
+    padding: 2% 0% 3% 0%;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .good_text{
+    display: inline-block;
+    position: relative;
+    width: 90%;
+    font-size: 16px;
+    line-height: 1.8em;
+  }
+  .good_3P_right{
+    display: inline-block;
+    position: relative;
+    width: 59%;
+    vertical-align: top;
+  }
+  .good_img{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+
+  /*<!--right_main_body-->*/
+  .right_main_body{
+    position: relative;
+    width: 25%;
+    float: right;
+    margin-top: 8%;
+  }
+  /*<!--infomation-->*/
+  .infomation_body{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(247 247 247);
+    margin-right: 30%;
+    text-align: center;
+  }
+  .infomation_title{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: #6b6b6b;
+    padding: 20px 20px 0px 20px;
+  }
+  .infomation_text{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 6px;
+    color: #6b6b6b;
+    padding: 0px 20px 10px 20px;
+  }
+
+  /*<!--footer-->*/
+.footer_all {
+  position: relative;
+  display: inline-block;
+  background-color: #020133;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+.foooter {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+}
+.footer_title {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  padding: 2% 0% 0% 0%;
+  height: 200px;
+  top: -10px;
+  left: 20px;
+}
+.footer_img {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 50%;
+  object-fit: cover;
+}
+.footer_title_sub {
+  position: relative;
+  display: inline-block;
+  font: normal normal normal 20px/100% Hiragino Mincho ProN;
+  color: #ffffff;
+  width: 100%;
+  height: 50%;
+  top: 10px;
+}
+.footer_text_body {
+  position: relative;
+  display: inline-block;
+  padding: 2% 0% 2% 0%;
+  height: 100%;
+  width: 40%;
+}
+.footer_text{
+  position: relative;
+  display: inline-block;
+}
+.footer_text_text {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  color: #ffffff;
+  width: 20%;
+  height: 100%;
+  padding: 1%;
+}
+.footer_text_text:hover {
+  color: #ffffff;
+}
+
+  @media  (max-width: 1050px) {
+    .header_list {
+      text-align: center;
+      font-size: 5px;
+      color: #ffffff;
+    }
+    .footer_title {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      padding: 2% 0% 0% 0%;
+      height: 200px;
+      top: -10px;
+      left: 20px;
+    }
+    .footer_text_body {
+      position: relative;
+      display: inline-block;
+      padding: 2% 0% 2% 0%;
+      height: 100%;
+      width: 100%;
+    }
+    }

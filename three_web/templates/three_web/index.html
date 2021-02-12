@@ -1,0 +1,10 @@
+{% extends "three_web/base.html" %}
+
+{% block infomation %}
+    {% for infomation in Infomation_data %} 
+        <div class="infomation_body">
+            <h2 class="infomation_title">{{ infomation.title }}</h2>
+            <h5 class="infomation_text">{{ infomation.content }}</h5>
+        </div>
+    {% endfor %}
+{% endblock %}
