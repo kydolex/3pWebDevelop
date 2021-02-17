@@ -8,3 +8,12 @@
         </div>
     {% endfor %}
 {% endblock %}
+
+{% block sample %}
+    {% for sample in Sample_data %} 
+        <div class="sample_body">
+            <img class="sample_img" src="{{ sample.image.url }}" alt="">
+            <h2 class="sample_title">{{ sample.title }}</h2>
+        </div>
+    {% endfor %}
+{% endblock %}
