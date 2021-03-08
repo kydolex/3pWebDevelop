@@ -1,0 +1,167 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>3P Web作成</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+
+<body> 
+    <!--ヘッダー-->
+    <div class="header">
+        <div class="header_icon_all">
+            <a class="header_icon" href="/"><span><img class="kydolex_header_log" src="{%static 'img/Kydolex.full.log.white.png'%}" alt=""></span></a>
+        </div>
+        <div class="header_list_all">
+            <a class="header_list" href="/">３P作成ホーム</a>
+            <a class="header_list" href="/">デザイン一覧</a>
+            <a class="header_list" href="/">参考料金</a>
+            <a class="header_list" href="/">作成依頼</a>
+            <a class="header_list" href="/">お問い合わせ</a>
+        </div>
+    </div> 
+    <main >
+            <div class="request_first_title">選択画面</div>
+            <div class="input_form_all">
+                <div class="short_inputForm"> 
+                <label class="short_inputForm_title" for="id_name">Webタイトル</label>
+                 <input class="short_inputForm_text" type="text" name="name" maxlength="30" placeholder="Webタイトルを入力してください。(最大30文字)" required="" id="id_name">
+                </div>
+
+                <div class="short_inputForm"> 
+                    <label class="short_inputForm_title" for="id_name">Webタイトル</label>
+                     <textarea class="long_textareaForm_text"
+                      type="text" textarea name="name" maxlength="600" cols="40" rows="15"
+                       placeholder="Webタイトルを入力してください。(最大600文字)" id="id_name"></textarea>
+                </div>
+
+                <div class="short_inputForm"> 
+                    <label class="short_inputForm_title" for="id_name">Webタイトル</label>
+                    <div class="imgForm_body">
+                        <h5 class="sample_number" >1.</h5>
+                        <input class="input_imageForm" type="file" name="image" accept="image/jpeg, image/png">
+                    </div>
+                    <div class="imgForm_body">
+                        <h5 class="sample_number" >2.</h5>
+                        <input class="input_imageForm" type="file" name="image" accept="image/jpeg, image/png">
+                    </div>
+                    <div class="imgForm_body">
+                        <h5 class="sample_number" >3.</h5>
+                        <input class="input_imageForm" type="file" name="image" accept="image/jpeg, image/png">
+                    </div>
+                </div>
+                
+                <div class="short_inputForm"> 
+                    <label class="short_inputForm_title" for="id_name">Webタイトル</label>
+
+                    <div class="question_box_all">
+                        <h5 class="question_title">どれがいいですか？</h5>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                    </div>
+                    <div class="question_box_all">
+                        <h5 class="question_title">どれがいいですか？</h5>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                    </div>
+                    <div class="question_box_all">
+                        <h5 class="question_title">どれがいいですか？</h5>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                    </div>
+                    <div class="question_box_all">
+                        <h5 class="question_title">どれがいいですか？</h5>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                        <div class="question_box_body">
+                            <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="short_inputForm"> 
+                    <label class="short_inputForm_title" for="id_name">Webタイトル</label>
+
+                        <div class="question_box_all_width">
+                            <h5 class="question_title_width">どれがいいですか？</h5>
+                                <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                                <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                                <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+                        <div class="question_box_all_width">
+                            <h5 class="question_title_width">どれがいいですか？</h5>
+                                <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                                <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                                <input class="question_box" type="radio" name="q1" value="はい"><h5 class="question_text">はい</h5> 
+                        </div>
+
+                </div>
+
+            </div>
+    </main>
+    
+
+    {% block extra_js %}
+        <script>
+        </script>
+    {% endblock %}
+    
+    <footer class="footer_all">
+        <div class="footer">
+            <div class="footer_title">
+                <img class="footer_img" src="{%static 'img/Kydolex.full.log.white.png'%}" alt="">
+                <div class="footer_title_sub">〜 Make your life more exciting 〜</div>
+            </div>
+            <div class="footer_text_body">
+                <div class="footer_text">
+                    <a class="footer_text_text" href="/">企業概要</a>
+                    <a class="footer_text_text" href="/">企業代表者</a>
+                    <a class="footer_text_text" href="/">企業理念</a>
+                    <a class="footer_text_text" href="/">事業内容</a>
+                    <a class="footer_text_text" href="/">最新情報</a>
+                    <a class="footer_text_text" href="/">ギャラリー</a>
+                    <a class="footer_text_text" href="/">販売サイト</a>
+                    <a class="footer_text_text" href="/">宣伝媒体</a>
+                    <a class="footer_text_text" href="/">作成料金</a>
+                    <a class="footer_text_text" href="/">作成予約</a>
+                    <a class="footer_text_text" href="/">作成相談</a>
+                    <a class="footer_text_text" href="/">作成依頼</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

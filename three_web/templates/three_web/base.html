@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="shortcut icon" href="{%static 'img/3P Web_faviocon.png'%}">
     <title>3P Web作成</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
@@ -19,32 +20,32 @@
                     <a class="header_icon" href="/"><span><img class="kydolex_header_log" src="{%static 'img/Kydolex.full.log.white.png'%}" alt=""></span></a>
                 </div>
                 <div class="header_list_all">
-                    <a class="header_list" href="/">３P作成ホーム</a>
-                    <a class="header_list" href="/">デザイン一覧</a>
-                    <a class="header_list" href="/">参考料金</a>
-                    <a class="header_list" href="/">作成依頼</a>
-                    <a class="header_list" href="/">お問い合わせ</a>
+                    <a class="header_list" href="/">3P作成ホーム</a>
+                    <a class="header_list" href="{% url 'list'%}">デザイン一覧</a>
+                    <a class="header_list" href="{% url 'plan'%}">参考料金</a>
+                    <a class="header_list" href="{% url 'request'%}">作成依頼</a>
+                    <a class="header_list" href="{% url 'contact'%}">お問い合わせ</a>
                 </div>
         </div> 
         <main>
-            <div class="Page_title"><img class="Page_title_img " src="{%static 'img/3P_title_2.jpg'%}" alt=""></div>
+            <div class="Page_title"><img class="Page_title_img " src="{%static 'img/3P_sakusei_title.png'%}" alt=""></div>
             
             <div class="left_main_body">
                 <div class="click_list_all">
                     <div class="click_list_body">
-                        <img class="click_design" src="{%static 'img/three_list_title_アートボード 1.png'%}" alt="">
+                        <a href=""><img class="click_design" src="{%static 'img/three_list_title_アートボード 1.png'%}" alt=""></a>
                         <h2 class="click_text">デザイン一覧</h2>
                         <h5 class="click_text_sub">他種多様なWebデザインのテンプレートの一覧です。あなたがWeb作成を依頼するときの参考になります。</h5>
                         <a href="/" class="click_buttom">＜＜デザイン一覧を見る</a>
                     </div>
                     <div class="click_list_body">
-                        <img class="click_design" src="{%static 'img/３P料金.png'%}" alt="">
+                        <a href=""><img class="click_design" src="{%static 'img/３P料金.png'%}" alt=""></a>
                         <h2 class="click_text">料金プラン</h2>
                         <h5 class="click_text_sub">Webデザインからサーバーへのデプロイまでを市場価格を大幅に下回る価格で提供しています！理由と内訳を明記しているのでぜひご覧ください。</h5>
                         <a href="/" class="click_buttom">＜＜料金一覧を見る</a>
                     </div>
                     <div class="click_list_body">
-                        <img class="click_design" src="{%static 'img/3P作成.png'%}" alt="">
+                        <a href=""><img class="click_design" src="{%static 'img/3P作成.png'%}" alt=""></a>
                         <h2 class="click_text">作成依頼</h2>
                         <h5 class="click_text_sub">サイト設計、Webデザイン、コーディング、サーバーデプロイ、ドメイン取得までを最短で依頼できます。決済はクレジットカードです。</h5>
                         <a href="/" class="click_buttom">＜＜作成依頼を見る</a>
@@ -181,13 +182,6 @@
 
                 </div>
 
-            </div>
-
-            <div class="charm_all">
-                <h2 class="charm_title">３P Web作成の利用例</h2>
-                <img class="charm_img" src="{%static 'img/3P_oneweek.jpg'%}" alt="">
-                <img class="charm_img" src="{%static 'img/3P_oneweek.jpg'%}" alt="">
-                <img class="charm_img" src="{%static 'img/3P_oneweek.jpg'%}" alt="">
             </div>
             
             <div class="click_list_all">
